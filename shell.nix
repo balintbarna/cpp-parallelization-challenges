@@ -3,6 +3,7 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     boost
+    curl
     gcc
     gdb
     git
